@@ -6,7 +6,6 @@ $(document).ready(function () {
 	for (var i = 0; i < contacts.length; i++) {
 		$("ul").append('<li><a>' + contacts[i] + '</a></li>');
 	}
-	$("li").append('<a>');
 
 	$("span").addClass("dropdown").text("Select Friend").prependTo("ul");
 	$("ul").addClass("list");
