@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function () {
 	var contacts = ['Jenny Hess', 'Elliot Fu', 'Stevie Feliciano','Christian', 'Matt'];
 	$("div").append('<ul>');
 	$("ul").append('<span>');
@@ -8,8 +8,6 @@ $(function() {
 	}
 	$("li").append('<a>');
 
-});
-$(document).ready(function () {
 	$("span").addClass("dropdown").text("Select Friend").prependTo("ul");
 	$("ul").addClass("list");
 	$(".list").click(function() {
