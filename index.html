@@ -3,84 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-	</script>
-	<script>
-		$(function() {
-			var contacts = ['Jenny Hess', 'Elliot Fu', 'Stevie Feliciano','Christian', 'Matt'];
-			var div = document.createElement('div');
-			var ul = document.createElement('ul');
-			var span = document.createElement('span');
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
-			for(var item in contacts) {
-				var a  = document.createElement("a");
-				a.innerText = contacts[item];
-				var li = document.createElement("li");
-				li.appendChild(a);
-				ul.appendChild(li);
-				ul.appendChild(span);
-				div.appendChild(ul);
-			}
-			document.body.appendChild(div);
-		});
-		$(document).ready(function () {
-			$("div").addClass("wrapperDropdown");
-			$("span").addClass("dropdown").text("Select Friend").prependTo("ul");
-			$("ul").addClass("list");
-			$(".dropdown").click(function() {
-				 $("li").toggle(300);
-			})
-			$('.list li').click(function() {
-				$('.dropdown').html($(this).text())
-				$("li").toggle(300);
-			});
-		});
-	</script>
-	<style type="text/css">
-		
-		div {
-			position: relative;
-			width: 200px;
-			padding: 10px;
-			margin: 0 auto;
-
-			background: white;
-			color: black;
-			outline: none;
-			cursor: pointer;
-			border: 1px solid #95a5a6;
-
-			font-weight: bold;
-			font-family: 'Open Sans', sans-serif;
-		}
-
-		ul {
-			border: 1px solid #3498db;
-			border-radius: 3px;
-			padding: 10px
-		}
-
-		ul li {
-			display: none;
-			margin-top: 10px;
-			width: 100%;
-		}
-		span {
-			font-size: small;
-			opacity: 0.3;
-		}
-
-		li {
-			list-style: none;
-			opacity: 0.8;
-		}
-
-		ul li:hover {
-			background-color: #ecf0f1;
-		}
-
-	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>	
+	<div class="wrapperDropdown"></div>
 </body>
 </html>
