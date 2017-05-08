@@ -23,7 +23,7 @@ $(document).ready(function(){
         var centerTop = top - heightOffset; 
         $('body,html').animate({scrollTop: centerTop}, 1500);
     });
-});
+}); 
 
 
 
