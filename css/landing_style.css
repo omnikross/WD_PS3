@@ -1,0 +1,157 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    min-width: 45%;
+}
+header {
+    text-align: center;
+    letter-spacing: 30px;
+    height: 50px;
+    padding: 20px;
+    background: #232324;
+    color: #ecf0f1;
+
+}
+header button {
+    display: inline-block;
+}
+button{
+    text-align: center;
+    background: #7f8c8d;
+    border-radius: 5px;
+    border: 1px solid #232324;
+    height: 50px;
+    width: 100px;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #bdc3c7;
+}
+.container{
+    width: auto;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+nav{
+    width: 100%;
+    height: auto;
+    max-width: none;
+    display: flex;
+    flex-direction: row;
+    text-align: inherit;
+    align-self: stretch;
+    background: #3498db;    
+}
+
+img{
+    margin: 40px;
+    width:200px;
+    height:400px;
+}
+.register {
+    margin-top: 100px;
+    padding-left: 115px;
+    text-align: center;
+    font-size: 125%;
+}
+.register h3{
+    color: #2c3e50;
+}
+
+article{
+    position: static;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    text-align: center;
+    background: #ecf0f1;
+}
+
+.icons{
+    display: inline-block;
+    margin: 50px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+i{
+    width: 40px;
+    height: 34px;
+    border-radius: 50% 50% 50% 50%;
+    border: 30px solid dodgerblue; 
+    background: dodgerblue;
+    color: white;   
+}
+.string{
+    font-size: medium;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+footer{
+    display: flex;
+    text-align: center;
+    left: 0; 
+    bottom: 0; 
+    margin: 0;
+    padding: 10px; 
+    background: url(D:/Programming/WD/WD_PS3/image/space.gif);
+    opacity: 0.9;
+    color: #fff; 
+    width: 100%;
+    min-height: 650px; 
+}
+.form{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;  
+    color: #fff; 
+}
+form{
+    opacity: 100%;
+    width: 100%;
+    padding: 2em;
+    font-family: Avenir;
+}
+form h1 {
+    font-size: 30px;
+}
+form input {
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+
+}
+.scroller{
+    width:55px;
+    height:55px;
+    opacity: 0.7;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url("D:/Programming/WD/WD_PS3/image/icon_top.png ") no-repeat;
+}
