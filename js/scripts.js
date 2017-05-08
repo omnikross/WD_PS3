@@ -7,7 +7,7 @@ $(document).ready(function () {
 		$(".wrapperDropdown ul").append('<li><a>' + contacts[i] + '</a></li>');
 	}
 
-	$(".wrapperDropdown span").addClass("dropdown").text("Select Friend").prependTo(".wrapperDropdown ul");
+	$(".wrapperDropdown span").addClass("dropdown").text("Select Friend").prependTo(".wrapperDropdown ul"); 
 	$(".wrapperDropdown ul").addClass("list");
 	$(".list").click(function() {
 		$(".wrapperDropdown li").toggle(300);
